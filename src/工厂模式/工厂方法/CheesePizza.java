@@ -1,14 +1,16 @@
-package 工厂模式.简单工厂;
+package 工厂模式.工厂方法;
 
 /**
  * @Author: longsx
  * @DateTime: 2020/6/13 0:27
- * @Description: BasePizza实体类
+ * @Description: TODO
  */
-public class ClamPizza extends BasePizza {
-    
-    public ClamPizza() {
-        name="ClamPizza";
+public class CheesePizza extends BasePizza {
+
+
+    public CheesePizza(String style) {
+        name=style+"CheesePizza";
+
     }
 
     @Override

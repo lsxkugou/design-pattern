@@ -1,4 +1,4 @@
-package 工厂模式.简单工厂;
+package 工厂模式.工厂方法;
 
 /**
  * @Author: longsx

@@ -7,7 +7,12 @@ package 工厂模式.简单工厂;
  */
 public class CheesePizza extends BasePizza {
 
-    String name="CheesePizza";
+
+    public CheesePizza() {
+        name="CheesePizza";
+
+    }
+
     @Override
     void prepare() {
         System.out.printf("%s\t","prepare"+name);
